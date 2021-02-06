@@ -1,0 +1,32 @@
+body {
+  background-color: #000000;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: 150px;
+  border-style: dashed;
+  border-color: #DF8FB2;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-family: "frutiger";
+  font-size: 35px;
+}
+h1 {
+  color:#DF8FB2;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px 3px white;
+  font-family: "frutiger";
+  font-size: 65px;
+}
+a {
+  color:#68B0C6;
+  text-decoration: none;
+}
+a:hover {
+  color:#DF8FB2;
+  letter-spacing: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul {
+  list-style-type: circle;
+}
