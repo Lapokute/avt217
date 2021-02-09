@@ -30,3 +30,6 @@ a:hover {
 ul {
   list-style-type: circle;
 }
+hr {
+  border: 2px dashed #DF8FB2;
+}
