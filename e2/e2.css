@@ -3,3 +3,5 @@ body {
   color: #FFFFFF;
   font-family: "frutiger";
 }
+hr {
+  border: 1px solid white;
