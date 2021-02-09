@@ -17,6 +17,9 @@ h1 {
   font-family: "frutiger";
   font-size: 65px;
 }
+hr {
+  border: 2px dashed #DF8FB2;
+}
 a {
   color:#68B0C6;
   text-decoration: none;
@@ -29,7 +32,4 @@ a:hover {
 }
 ul {
   list-style-type: circle;
-}
-hr {
-  border: 2px dashed #DF8FB2;
 }
