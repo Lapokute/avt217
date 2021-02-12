@@ -1,0 +1,21 @@
+  h3 {
+    font-family: "gotham";
+    color:#FFFFFF;
+  }
+  body {
+    font-family: "gotham";
+    color:#FFFFFF;
+    background-color:#000000;
+  }
+  a {
+    font-family:"gotham";
+    color:#515151;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:hover {
+    font-family:"gotham";
+    font-weight: bold;
+    color:#FFFFFF;
+    text-decoration: none;
+  }
