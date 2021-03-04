@@ -1,0 +1,75 @@
+* {
+  background-color: black;
+  font-family: factoria, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+}
+img {
+  vertical-align: top;
+  margin: 15px;
+  padding-top: 100px;
+}
+#home {
+  position: absolute;
+  left: 13%;
+}
+#about {
+  position: absolute;
+  left: 34.5%;
+}
+#exhibits {
+  position: absolute;
+  left: 55%;
+}
+#shop {
+  position: absolute;
+  left: 79%;
+}
+
+@media screen and (max-width:1470px) {
+  img {
+    vertical-align: top;
+    margin: 5px;
+    padding-top: 100px;
+    max-width: 280px;
+  }
+  * {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width:1221px) {
+  img {
+    vertical-align: top;
+    margin: 5px;
+    padding-top: 65px;
+    max-width: 240px;
+  }
+  * {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width:1055px) {
+  img {
+    vertical-align: top;
+    margin: 3px;
+    padding-top: 55px;
+    max-width: 150px;
+  }
+  * {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:667px) {
+  img {
+    vertical-align: top;
+    margin: 1px;
+    padding-top: 45px;
+    max-width: 100px;
+  }
+  * {
+    font-size: 16px;
+  }
+}
