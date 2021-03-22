@@ -1,3 +1,5 @@
+/* old css - keeping for reference to see what i did wrong lol
+
 body {
   background-color: #000000;
   margin-right: 300px;
@@ -32,4 +34,124 @@ a:hover {
 }
 ul {
   list-style-type: circle;
+}
+*/
+*{
+  background-color: black;
+  cursor:crosshair;
+}
+header {
+  width:50vw;
+  height: auto;
+  margin: 100px auto 55px;
+}
+main {
+  width: 60vw;
+  height: auto;
+  margin: 35px auto;
+  display: flow-root;
+}
+footer {
+  width:50vw;
+  height: auto;
+  margin: 50px auto 55px;
+  letter-spacing: -5px;
+  word-spacing: 15px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.col {
+  width: 50%;
+  height: auto;
+  float:left;
+}
+h1 {
+  margin: 15px;
+  font-family: lores-12, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+body {
+  font-family: lores-12, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  transition: color .5s ease;
+  color: lime;
+}
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "+";
+  color: lime;
+  margin: auto 5px;
+}
+.hr::after {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  word-spacing: 5px;
+  color: white;
+  content: '______ _____ ____ ___ __ _ _ _ _ _ _ _';
+  position: relative;
+  top: -12px;
+  left:-15px;
+}
+.hr::before {
+  content: '\002734';
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  top: 0;
+  left: 5px;
+}
+#slime:hover {
+  transition: color 1s ease;
+  color: lime;
+}
+#star9:hover {
+  transition: 2s ease;
+  color: lime;
+  position: relative;
+  margin-right: -35%;
+}
+@media screen and (max-width:900px) {
+  .col {
+    width: 100%;
+  }
+  .hr::after {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 5px;
+    color: white;
+    content: '_____ ____ ___ __ _';
+    position: relative;
+    top: -12px;
+    left:-15px;
+  }
+  .hr::before {
+    content: '\002734';
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 0;
+    left: 5px;
+  }
+  #star9 {
+    font-size: 14px;
+  }
 }

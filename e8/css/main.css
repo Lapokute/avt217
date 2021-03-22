@@ -18,7 +18,10 @@ ol {
       display: inline-block;
       margin-left: auto;
       margin-right: auto;
-   }
+}
+ ol li::before {
+   color: lime;
+}
 a:hover {
   color: lime;
   text-decoration: none;
