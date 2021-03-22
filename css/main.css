@@ -43,7 +43,7 @@ ul {
 header {
   width:50vw;
   height: auto;
-  margin: 100px auto 55px;
+  margin: 100px auto 36px;
 }
 main {
   width: 60vw;
@@ -70,6 +70,8 @@ h1 {
   margin: 15px;
   font-family: lores-12, sans-serif;
   font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
   font-style: normal;
   text-align: center;
 }
@@ -130,6 +132,20 @@ ul li::before {
 @media screen and (max-width:900px) {
   .col {
     width: 100%;
+    margin: 10px auto;
+  }
+  header {
+    width: 90%;
+    margin: 10px auto;
+  }
+  footer {
+    width: 90%;
+    margin: 10px auto;
+  }
+  h1 {
+    margin: 30px;
+    font-size: 30px;
+    line-height: 34px;
   }
   .hr::after {
     text-align: center;
