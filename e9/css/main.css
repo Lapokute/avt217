@@ -1,0 +1,275 @@
+* {
+  background-color: steelblue;
+}
+/*pattern1*/
+.pattern1 {
+  background-color: #7E3817;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 18px;
+  letter-spacing: -5px;
+  }
+.olivetree {
+  width: 160px;
+  height: 150px;
+  background-image: linear-gradient(olive, darkolivegreen, darkolivegreen);
+  transform: rotate(65deg) skewX(45deg);
+  float:left;
+  margin: -15px -45px -15px;
+  border: 6PX double darkolivegreen;
+  color: olive;
+}
+.yellowtree {
+  width: 165px;
+  height: 150px;
+  background-image: linear-gradient(goldenrod, darkgoldenrod, darkgoldenrod);
+  transform: rotate(65deg) skewX(45deg);
+  float:left;
+  margin: -15px -45px -15px;
+  border: 6PX double darkgoldenrod;
+  color: goldenrod;
+}
+.orangetree {
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(darkorange, chocolate, chocolate);
+  transform: rotate(65deg) skewX(45deg);
+  float:left;
+  margin: -15px -45px -15px;
+  border: 6PX double chocolate;
+  color: darkorange;
+}
+.redtree {
+  width: 155px;
+  height: 150px;
+  background-image: linear-gradient(firebrick, darkred, darkred);
+  transform: rotate(65deg) skewX(45deg);
+  float:left;
+  margin: -15px -45px -15px;
+  border: 6PX double darkred;
+  color: firebrick;
+}
+/*pattern2*/
+.pattern2 {
+  background-color: #7E3817;
+  font-style: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: -2px;
+  }
+.tenty{
+  width:150px;
+  height:45px;
+  background-color: cadetblue;
+  transform: rotate(235deg);
+  border-radius: 0 0 100% 0;
+  border-top: 12px solid darkslategrey;
+  float: left;
+  margin: -70px -35px -35px -35px;
+  color: darkslategrey;
+}
+.wave1{
+  width:150px;
+  height:150px;
+  background-color: lightblue;
+  transform: rotate(45deg);
+  border-radius: 100% 0 0 0;
+  border-top: 20px solid lightcyan;
+  border-left: 10px double lightcyan;
+  float: left;
+  margin: -35px -25px -20px -25px;
+  color: darkslategrey;
+  box-sizing: border-box;
+}
+.wave2{
+  width:150px;
+  height:150px;
+  background-color: lightskyblue;
+  transform: rotate(45deg);
+  border-radius: 0 0 100% 0;
+  border-top: 20px solid lightcyan;
+  border-left: 10px double steelblue;
+  float: left;
+  margin: -35px -25px -35px;
+  opacity: .9;
+  color: darkslategrey;
+  box-sizing: border-box;
+}
+/*pattern3*/
+.flora{
+  width: 50px;
+  height: 150px;
+  background-image: radial-gradient(pink, transparent);
+  border-radius: 50%;
+  border: 16px double white;
+  box-sizing: border-box;
+  float: left;
+  margin: 0 -15px -45px 0;
+}
+.thistle {
+  width:75px;
+  height: 150px;
+  background-image: linear-gradient(thistle, transparent);
+  border-radius: 0 0 50% 50%;
+  border-bottom: 16px solid white;
+  border-top: 6px dotted yellow;
+  box-sizing: border-box;
+  float: left;
+  margin: 0 -5px -45px 0;
+}
+.rosa {
+  width: 50px;
+  height: 150px;
+  background-image: radial-gradient(transparent, papayawhip);
+  border-radius: 0 0 50% 50%;
+  border-radius: 50%;
+  border: 3px dotted yellow;
+  box-sizing: border-box;
+  float: left;
+  margin: 0 -5px -45px 0;
+}
+.leaveleft {
+  width: 30px;
+  height: 150px;
+  background-image: linear-gradient(seagreen, transparent);
+  border-radius: 0 75% 0 75%;
+  border-right: 10px solid mediumseagreen;
+  box-sizing: border-box;
+  float: left;
+  margin: 0 -5px -45px 0;
+}
+.leaveright {
+  width: 30px;
+  height: 150px;
+  background-image: linear-gradient(mediumseagreen, transparent);
+  border-radius: 75% 0 75% 0;
+  border-left: 10px solid seagreen;
+  box-sizing: border-box;
+  float: left;
+  margin: 0 -5px -45px 0;
+}
+/*pattern4*/
+.glassblock {
+  width: 300px;
+  height: 300px;
+  background-color: honeydew;
+  border: 10px solid slategrey;
+  border-bottom: 45px solid peru;
+  border-top: 10px solid lightblue;
+  box-sizing: border-box;
+  float: left;
+  padding: 20px;
+  opacity: .85;
+}
+.fish {
+  width:100px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 50% 0 50% 0;
+  float: left;
+  margin: 10px 5px 5px;
+}
+.blankfish {
+  width:100px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50% 0 50% 0;
+  float: left;
+}
+.eyes {
+  width:5px;
+  height: 5px;
+  background-color: black;
+  border-radius: 50%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.fin {
+  width: 0;
+  height: 0;
+  background-color: orange;
+  border-radius: 25%;
+  border-right: 30px solid tomato;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  margin: 15px 40px 15px ;
+}
+.tail {
+  width: 0;
+  height: 0;
+  background-color: orange;
+  border-radius: 0 25% 25% 0;
+  border-top: 35px solid tomato;
+  border-left: 40px solid honeydew;
+  margin: -50px 100px 50px ;
+}
+/*pattern5*/
+.hanbok {
+  width: 175px;
+  height: 175px;
+  background-color: red;
+  background-image: linear-gradient(red, darkred, darkred);
+  border-radius: 0 50% 50% 50%;
+  border: 4px solid darkred;
+  box-sizing: border-box;
+  float: left;
+  margin: -25px -25px -25px -25px;
+
+
+}
+.tier2 {
+  width: 125px;
+  height: 125px;
+  background-image: linear-gradient(turquoise, teal, teal);
+  border-radius: 0 50% 50% 50%;
+  border: 4px solid teal;
+  margin: 10.5px 10.5px 0;
+  transform: rotate(15deg);
+  box-sizing: border-box;
+}
+.tier3 {
+  width: 100px;
+  height: 100px;
+  background-color: magenta;
+  background-image: linear-gradient(magenta, mediumvioletred, mediumvioletred);
+  border-radius: 0 50% 50% 50%;
+  border: 4px solid mediumvioletred;
+  margin: 10.5px 10.5px 0;
+  transform: rotate(15deg);
+  box-sizing: border-box;
+}
+.tier4 {
+  width: 75px;
+  height: 75px;
+  background-color: yellow;
+  background-image: linear-gradient(yellow, goldenrod, goldenrod);
+  border-radius: 0 50% 50% 50%;
+  border: 4px solid goldenrod;
+  margin: 10.5px 10.5px 0;
+  transform: rotate(15deg);
+  box-sizing: border-box;
+}
+.tier5 {
+  width: 50px;
+  height: 50px;
+  background-color: mediumorchid;
+  background-image: linear-gradient(mediumorchid, darkmagenta, darkmagenta);
+  border-radius: 0 50% 50% 50%;
+  border: 4px solid darkmagenta;
+  margin: 10.5px 10.5px 0;
+  transform: rotate(15deg);
+  box-sizing: border-box;
+}
+.tier6 {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  background-image: linear-gradient(white, grey, grey);
+  border-radius: 0 50% 50% 50%;
+  border: 4px solid grey;
+  margin: 10.5px 10.5px 0;
+  transform: rotate(15deg);
+  box-sizing: border-box;
+}

@@ -47,6 +47,16 @@ h4 {
   text-align: center;
   color: #04151F;
 }
+#yello {
+  color: #ebd57c;
+  font-family: jaf-domus-titling-web, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 80px;
+  line-height: .8;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
 hr {
   border: 5px solid #04151F;
   max-width: 20%;
