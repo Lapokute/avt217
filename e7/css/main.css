@@ -17,8 +17,8 @@ h1 {
   font-style: normal;
   font-size: 80px;
   line-height: .8;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 h2 {
   font-family: jaf-domus-titling-web, sans-serif;
@@ -53,13 +53,14 @@ h4 {
   font-weight: 800;
   font-style: normal;
   font-size: 80px;
-  line-height: .8;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  line-height: 0;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 hr {
   border: 5px solid #04151F;
   max-width: 20%;
+  margin: 35px auto;
 }
 ul {
   padding-left:25%;
@@ -98,3 +99,4 @@ background-color: #04151F;
 .split::-webkit-scrollbar-thumb {
   background: #183A37;
   border-radius: 10px;
+}
