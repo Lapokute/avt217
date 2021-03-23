@@ -83,6 +83,9 @@ body {
   line-height: 24px;
   color: white;
 }
+.pagebody {
+  margin: 0 25%;
+}
 a {
   text-decoration: none;
   color: white;

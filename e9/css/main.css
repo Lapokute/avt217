@@ -99,7 +99,7 @@
 }
 /*pattern3*/
 .flora{
-  width: 50px;
+  width: 100px;
   height: 150px;
   background-image: radial-gradient(pink, transparent);
   border-radius: 50%;
@@ -109,7 +109,7 @@
   margin: 0 -15px -45px 0;
 }
 .thistle {
-  width:75px;
+  width:100px;
   height: 150px;
   background-image: linear-gradient(thistle, transparent);
   border-radius: 0 0 50% 50%;
@@ -120,7 +120,7 @@
   margin: 0 -5px -45px 0;
 }
 .rosa {
-  width: 50px;
+  width: 100px;
   height: 150px;
   background-image: radial-gradient(transparent, papayawhip);
   border-radius: 0 0 50% 50%;
