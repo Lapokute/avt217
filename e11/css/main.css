@@ -88,7 +88,7 @@ body {
   width: 210px;
   height: 350px;
   /* background-color: #C89E94; */
-  background-image: linear-gradient(#C89E94, #C89E94, #C89E94, #F1DECC);
+  background-image: linear-gradient(#C89E94, #C89E94, #C89E94, transparent);
   border-radius: 40% 0 30% 30%;
   transform: rotate(-56deg);
   position: absolute;
@@ -101,7 +101,7 @@ body {
   width: 110px;
   height: 130px;
   /* border:30px solid #C89E94; */
-  background-image: linear-gradient(#C89E94, #C89E94, #C89E94, #C89E94, #F1DECC);
+  background-image: linear-gradient(#C89E94, #C89E94, #C89E94, #C89E94, transparent);
   border-radius: 50%;
   transform: rotate(-56deg);
   position: absolute;
@@ -207,7 +207,7 @@ body {
   width: 30px;
   height: 200px;
   /* background-color: white; */
-  background-image: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, #F1F0E7);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, transparent);
   border-radius: 20% 20% 20% 50%;
   top: 150px;
   left: 60px;
@@ -218,7 +218,7 @@ body {
 .lolite {
   width: 30px;
   height: 200px;
-  background-image: linear-gradient(to bottom, #D1D0C7, #D1D0C7, #D1D0C7, #F1F0E7);
+  background-image: linear-gradient(to bottom, #D1D0C7, #D1D0C7, #D1D0C7, transparent);
   /* background-color: #D1D0C7; */
   border-radius: 5% 5% 30% 30%;
   top: 150px;
