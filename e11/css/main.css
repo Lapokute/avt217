@@ -1,0 +1,347 @@
+body {
+  background-color: #F1DECC;
+  display: flow-root;
+}
+.container {
+  width: 475px;
+  height: 665px;
+  /* background-color: tomato; */
+  position: relative;
+  margin: 200px auto;
+}
+
+/* =====CERAMIC MUG====== */
+
+.mugellipsetop {
+  width: 200px;
+  height: 100px;
+  background-color: #F1F0E7;
+  /* background-color: tomato; */
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  z-index: 0;
+}
+.mugsquare {
+  width: 200px;
+  height: 175px;
+  background-color: #F1F0E7;
+  /* background-color: tomato; */
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+.mugellipsebottom {
+  width: 200px;
+  height: 100px;
+  background-color: #F1F0E7;
+  /* background-color: tomato; */
+  border-radius: 50%;
+  position: absolute;
+  top: 275px;
+  left: 50px;
+}
+.handle {
+  width: 50px;
+  height: 50px;
+  border-top: 30px solid #D1D0C7;
+  border-right: 30px solid #F1F0E7;
+  border-left: 30px solid #D1D0C7;
+  border-bottom: 30px solid #F1F0E7;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 175px;
+  left: 200px;
+  z-index: -3;
+}
+
+/* =====COFFEE====== */
+
+.coffee {
+  width: 190px;
+  height: 97px;
+  background-color: #44250E;
+  border: 10px solid #F1F0E7;
+  border-radius: 50%;
+  position: absolute;
+  top: 105px;
+  left: 55px;
+  box-sizing: border-box;
+  z-index: 15;
+}
+.coffeedeep {
+  width: 120px;
+  height: 60px;
+  background-color: #2D1206;
+  border-radius: 50%;
+  position: relative;
+  top: 15px;
+  left: 40px;
+  z-index: 16;
+}
+
+/* =====SHADOW===== */
+
+.shadow {
+  width: 210px;
+  height: 350px;
+  /* background-color: #C89E94; */
+  background-image: linear-gradient(#C89E94, #C89E94, #C89E94, transparent);
+  border-radius: 40% 0 30% 30%;
+  transform: rotate(-56deg);
+  position: absolute;
+  top: 200px;
+  left: 110px;
+  /* float: left; */
+  z-index: -4;
+}
+.shadowhandle {
+  width: 110px;
+  height: 130px;
+  /* border:30px solid #C89E94; */
+  background-image: linear-gradient(#C89E94, #C89E94, #C89E94, #C89E94, transparent);
+  border-radius: 50%;
+  transform: rotate(-56deg);
+  position: absolute;
+  top: 245px;
+  left: 250px;
+  z-index: -5;
+}
+.shadowhandlepunch {
+  width: 50px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #F1DECC;
+  /* transform: rotate(-56deg); */
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+/* ===== LOGO PARTS ====== */
+
+.logobloo {
+  /* width: 185px;
+  height: 95px; */
+  width: 0;
+  height: 0;
+  border-right: 85px solid transparent;
+  border-left: 85px solid transparent;
+  border-top: 90px solid #5C829F;
+  position: absolute;
+  top: 90px;
+  left: 15px;
+  z-index: 1;
+}
+.curvebloo {
+  width: 200px;
+  height: 100px;
+  background-color: #F1F0E7;
+  border-radius: 50%;
+  position: absolute;
+  top:25px;
+  z-index: 2;
+}
+.curvec{
+  width: 130px;
+  height: 40px;
+  background-color: #ACDBC5;
+  border-radius: 50%;
+  position: absolute;
+  top: 105px;
+  left: 35px;
+  z-index: 3;
+}
+.cfoamstripe {
+  width: 130px;
+  height: 50px;
+  background-color: #ACDBC5;
+  position: absolute;
+  top: 75px;
+  left: 35px;
+  z-index: 4;
+}
+.cfoamneg {
+  width: 200px;
+  height: 100px;
+  background-color: #F1F0E7;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  z-index: 5;
+}
+.logored {
+  /* width: 185px;
+  height: 95px; */
+  width: 0;
+  height: 0;
+  border-right: 85px solid transparent;
+  border-left: 85px solid transparent;
+  border-top: 90px solid #BC4342;
+  position: absolute;
+  top: 75px;
+  left: 15px;
+  z-index: 6;
+}
+.curvered {
+  width: 170px;
+  height: 60px;
+  background-color: #F1F0E7;
+  border-radius: 50%;
+  border-bottom: 10px solid #5C829F;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  position: absolute;
+  top: 45px;
+  left: 15px;
+  box-sizing: border-box;
+  z-index: 7;
+}
+
+/* ==== VALUES ===== */
+
+.hilite {
+  width: 30px;
+  height: 200px;
+  /* background-color: white; */
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, transparent);
+  border-radius: 20% 20% 20% 50%;
+  top: 150px;
+  left: 60px;
+  position: absolute;
+  z-index: 8;
+  opacity: .85;
+}
+.lolite {
+  width: 30px;
+  height: 200px;
+  background-image: linear-gradient(to bottom, #D1D0C7, #D1D0C7, #D1D0C7, transparent);
+  /* background-color: #D1D0C7; */
+  border-radius: 5% 5% 30% 30%;
+  top: 150px;
+  left: 210px;
+  position: absolute;
+  z-index: 8;
+  opacity: .85;
+}
+
+/* ===== STEAM PARTS ===== */
+  .pouf {
+    width: 475px;
+    height: 665px;
+    /* background-color: tomato;
+    opacity: .4; */
+    margin: 170px 36vw;
+    position: relative;
+    float: left;
+    z-index: 18;
+  }
+  .ouch {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    opacity: .8;
+    animation: owch 4s ease;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  }
+  .thats {
+    width: 95px;
+    height: 95px;
+    /* background-color: white; */
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    opacity: .8;
+    animation:  dats 5s ease;
+    animation-iteration-count: infinite;
+  }
+  .hot {
+    width: 105px;
+    height: 105px;
+    /* background-color: white; */
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: 115px;
+    opacity: .8;
+    animation: hott 5s ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+  }
+  /* .overkill {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 145px;
+    left: 160px;
+    opacity: .6;
+    animation: sorry 7s ease;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  } */
+@keyframes owch {
+  0% {
+    background-color: #FFFFFF;
+    top: 50px;
+  }
+  50% {
+    transform: scale(.8);
+  }
+  100% {
+    top: 100px;
+    opacity: .5;
+  }
+}
+@keyframes dats {
+  0% {
+    transform: scale(.5);
+    top: 105px;
+  }
+  50% {
+    background-color: #FFFFFF;
+  }
+  100% {
+    top: 15px;
+    background-color: transparent;
+  }
+}
+@keyframes hott {
+  0% {
+    transform: scale(.5);
+    top: 140px;
+  }
+  50% {
+    background-color: #FFFFFF;
+  }
+  100% {
+    top: 15px;
+    background-color: transparent;
+  }
+}
+@keyframes sorry {
+  0% {
+    background-color: #FFFFFF;
+    top: 50px;
+  }
+  50% {
+    transform: scale(.8);
+  }
+  100% {
+    opacity: .5;
+  }
+}
+@media screen and (max-width:500px) {
+  .pouf {
+    margin: 170px 10vw
+  }
