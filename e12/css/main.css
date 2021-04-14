@@ -215,7 +215,7 @@ main {
     width: 100%;
   }
   img {
-    width: 300px;
+    width: 280px;
     height:auto;
   }
   .box {
@@ -237,7 +237,7 @@ main {
   .frame {
     width: 320px;
     height: 320px;
-    border: 10px solid #E51764;
+    border: 20px solid #E51764;
     margin: 10px auto;
   }
   .center {
