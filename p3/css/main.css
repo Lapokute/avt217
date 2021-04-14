@@ -1,0 +1,30 @@
+
+h1 {
+  color: white;
+  font-family: tondo, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+}
+.helpbox {
+  width: 600px;
+  /* background-color: lime; */
+  margin: 550px auto 0;
+}
+body {
+    background-image: linear-gradient(180deg, #76287C, #632369, #76287C, #76287C, #3B1047, #210D2C, #76287C, #632369, #76287C, #3B1047, #76287C, #632369, #76287C, #76287C);
+    background-size: 100vw 200vw;
+    -webkit-animation: vaporwave 10s linear infinite;
+    animation: vaporwave 10s linear infinite;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes vaporwave {
+    0%{background-position:50% 0%}
+    100%{background-position:51% 100%}
+}
+
+@keyframes vaporwave {
+  0%{background-position:50% 0%}
+  100%{background-position:51% 100%}
+}
