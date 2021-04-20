@@ -205,3 +205,78 @@ h1.glitch::after {
     clip: rect(45px, 600px, 127px, -1px);
   }
 }
+
+/* h1.glitch::after {
+  color: magenta;
+  animation-name: glitch-animation-2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes glitch-animation-2 {
+  0% {
+    clip: rect(10px, 600px, 15px, -1px);
+  }
+  5% {
+    clip: rect(48px, 600px, 53px, -1px);
+  }
+  10% {
+    clip: rect(118px, 600px, 123px, -1px);
+  }
+  15% {
+    clip: rect(58px, 600px, 63px, -1px);
+  }
+  20% {
+    clip: rect(121px, 600px, 126px, -1px);
+  }
+  25% {
+    clip: rect(43px, 600px, 48px, -1px);
+  }
+  30% {
+    clip: rect(56px, 600px, 61px, -1px);
+  }
+  35% {
+    clip: rect(92px, 600px, 97px, -1px);
+  }
+  40% {
+    clip: rect(17px, 600px, 23px, -1px);
+  }
+  45% {
+    clip: rect(9px, 600px, 14px, -1px);
+  }
+  50% {
+    clip: rect(106px, 600px, 110px, -1px);
+  }
+  55% {
+    clip: rect(54px, 600px, 59px, -1px);
+  }
+  60% {
+    clip: rect(78px, 600px, 83px, -1px);
+  }
+  65% {
+    clip: rect(13px, 600px, 18px, -1px);
+  }
+  70% {
+    clip: rect(3px, 600px, 8px, -1px);
+  }
+  75% {
+    clip: rect(48px, 600px, 53px, -1px);
+  }
+  80% {
+    clip: rect(117px, 600px, 122px, -1px);
+  }
+  85% {
+    clip: rect(82px, 600px, 87px, -1px);
+  }
+  90% {
+    clip: rect(122px, 600px, 127px, -1px);
+  }
+  95% {
+    clip: rect(103px, 600px, 108px, -1px);
+  }
+  100% {
+    clip: rect(45px, 600px, 50px, -1px);
+  }
+} */
