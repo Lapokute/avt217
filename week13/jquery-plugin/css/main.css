@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #ddd; */
+  margin: 0;
+}
+#container {
+  width: 60vw;
+  margin: 100px auto;
+}
+img {
+  width: 100%;
+}
+.slick-prev:before, .slick-next:before{
+    color: black;
+}

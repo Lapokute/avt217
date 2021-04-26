@@ -1,0 +1,186 @@
+*{
+  margin:0;
+}
+body {
+  background-color: black;
+}
+header {
+  color: white;
+  font-family: bd-colonius, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  text-align: center;
+  margin: 100px auto 25px;
+}
+#lol  {
+  font-size: 16px;
+}
+main {
+  color: black;
+  font-family: century-gothic, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+}
+.songs {
+  width: 600px;
+  height: 600px;
+  display: flow-root;
+  margin: 25px auto;
+  /* background-color: tomato; */
+}
+.ono1, .ono2, .ono3, .ono4, .ono5, .one, .two, .three, .four, .five {
+  box-sizing: border-box;
+  border: 5px solid black;
+  transition: all 1s ease;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* I HATE MYSELF */
+
+.one {
+  width: 400px;
+  height: 200px;
+  float: left;
+  position: relative;
+  transform: rotate(90deg);
+  top:100px;
+  left:-100px;
+  /* background-color: lightseagreen; */
+}
+.two {
+  width: 400px;
+  height: 200px;
+  float: left;
+  position: relative;
+  left:200px;
+  top:-200px;
+  /* background-color: darkturquoise; */
+}
+.three {
+  width: 400px;
+  height: 200px;
+  float: left;
+  position: relative;
+  left:200px;
+  top:-200px;
+  /* background-color: cadetblue; */
+}
+.four {
+  width: 300px;
+  height: 200px;
+  float: left;
+  position: relative;
+  /* background-color: mediumaquamarine; */
+}
+.five {
+  width: 300px;
+  height: 200px;
+  float: left;
+  position: relative;
+  /* background-color: turquoise; */
+}
+.ono1 {
+  width: 400px;
+  height: 200px;
+  float: left;
+  position: relative;
+  background-color: lightseagreen;
+}
+.ono2 {
+  width: 400px;
+  height: 200px;
+  float: left;
+  position: relative;
+  background-color: darkturquoise;
+}
+.ono3 {
+  width: 400px;
+  height: 200px;
+  float: left;
+  position: relative;
+  background-color: cadetblue;
+}
+.ono4 {
+  width: 300px;
+  height: 200px;
+  float: left;
+  position: relative;
+  background-color: mediumaquamarine;
+}
+.ono5 {
+  width: 300px;
+  height: 200px;
+  float: left;
+  position: relative;
+  background-color: turquoise;
+}
+.circ1, .circ2, .circ3, .circ4, .circ5 {
+  color: white;
+  font-family: bd-colonius, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 75px;
+  text-align: center;
+  text-shadow: 5px 0px black;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease;
+}
+.circ1 {
+  /* width: 400px;
+  height: 24px; */
+  position: relative;
+  /* background-color: lightseagreen; */
+  color: lightseagreen;
+  line-height: 0px;
+  z-index: 1;
+}
+.circ2 {
+  /* width: 300px;
+  height: 24px; */
+  position: relative;
+  color: darkturquoise;
+  line-height: 0px;
+  z-index: 1;
+}
+.circ3 {
+  /* width: 300px;
+  height: 24px; */
+  position: relative;
+  color: cadetblue;
+  line-height: 0px;
+  z-index: 1;
+}
+.circ4 {
+  /* width: 300px;
+  height: 24px; */
+  position: relative;
+  color: mediumaquamarine;
+  line-height: 0px;
+  z-index: 1;
+}
+.circ5 {
+  /* width: 300px;
+  height: 24px; */
+  position: relative;
+  color: turquoise;
+  line-height: 0px;
+  z-index: 1;
+}
+.hidden {
+  display: none;
+}

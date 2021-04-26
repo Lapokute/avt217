@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	color: black;
+}
+main {
+	width: 50vw;
+	margin: 0 auto;
+	padding: 100px 0 0 0;
+}
+img {
+	width: 100%;
+}
