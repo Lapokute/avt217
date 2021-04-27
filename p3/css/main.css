@@ -189,7 +189,7 @@ h1.one, h1.two {
   text-align: center;
   content: "No one's around to help.";
 }
-/* h1.one::before, h1.one::after {
+h1.one::before, h1.one::after {
   padding: -1px;
   color: white;
   position: absolute;
@@ -216,7 +216,7 @@ h1.one::after {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
-} */
+}
 @keyframes glitch-animation-1 {
   0% {
     clip: rect(106px, 600px, 33px, -1px);
