@@ -1,8 +1,9 @@
 *{
   margin:0;
+  transition: all 1s ease;
 }
 body {
-  background-color: black;
+  background-color: #111111;
 }
 header {
   color: white;
@@ -17,15 +18,15 @@ header {
   font-size: 16px;
 }
 main {
-  color: black;
+  color: #111111;
   font-family: century-gothic, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 h1 {
-  font-size: 30px;
+  font-size: 22px;
 }
 .songs {
   width: 600px;
@@ -36,7 +37,7 @@ h1 {
 }
 .ono1, .ono2, .ono3, .ono4, .ono5, .one, .two, .three, .four, .five {
   box-sizing: border-box;
-  border: 5px solid black;
+  border: 5px solid #111111;
   transition: all 1s ease;
 }
 .center {
@@ -90,40 +91,100 @@ h1 {
   position: relative;
   /* background-color: turquoise; */
 }
-.ono1 {
+.ono1, .oono1, .nono1 {
   width: 400px;
   height: 200px;
   float: left;
   position: relative;
   background-color: lightseagreen;
 }
-.ono2 {
+.oono1 {
+  background-color: peachpuff;
+}
+.nono1{
+  width: 120px;
+  height: 120px;
+  top:0;
+  left:0;
+  position: static;
+  margin: 100px auto;
+  float: left;
+}
+.ono2, .oono2, .nono2 {
   width: 400px;
   height: 200px;
   float: left;
   position: relative;
   background-color: darkturquoise;
 }
-.ono3 {
+.oono2 {
+  background-color: papayawhip;
+}
+.nono2 {
+  width: 120px;
+  height: 120px;
+  top:0;
+  left:0;
+  position: static;
+  margin: 100px auto;
+  float: left;
+}
+.ono3, .oono3, .nono3 {
   width: 400px;
   height: 200px;
   float: left;
   position: relative;
   background-color: cadetblue;
 }
-.ono4 {
+.oono3 {
+  background-color: lemonchiffon;
+}
+.nono3 {
+  width: 120px;
+  height: 120px;
+  top:0;
+  left:0;
+  position: static;
+  margin: 100px auto;
+  float: left;
+}
+.ono4, .oono4, .nono4 {
   width: 300px;
   height: 200px;
   float: left;
   position: relative;
   background-color: mediumaquamarine;
 }
-.ono5 {
+.oono4 {
+  background-color: lightgoldenrodyellow;
+}
+.nono4{
+  width: 120px;
+  height: 120px;
+  top:0;
+  left:0;
+  position: static;
+  margin: 100px auto;
+  float: left;
+}
+.ono5, .oono5, .nono5 {
   width: 300px;
   height: 200px;
   float: left;
   position: relative;
   background-color: turquoise;
+}
+.oono5 {
+  background-color: moccasin;
+}
+.nono5{
+  width: 120px;
+  height: 120px;
+  top:0;
+  left:0;
+  position: static;
+  margin: 100px auto;
+  float: left;
 }
 .circ1, .circ2, .circ3, .circ4, .circ5 {
   color: white;
@@ -132,7 +193,7 @@ h1 {
   font-style: normal;
   font-size: 75px;
   text-align: center;
-  text-shadow: 5px 0px black;
+  text-shadow: 5px 0px #111111;
   float: left;
   position: absolute;
   top: 50%;
