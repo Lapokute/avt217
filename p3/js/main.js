@@ -1,48 +1,54 @@
 $(document).ready(function() {
-  // $("h1").hide();
-  $(window).click(function() {
-    $("h1.one").show();
+  $('.help2').toggleClass('hidden');
+  $('.help3').toggleClass('hidden');
+  $('.help4').toggleClass('hidden');
+  $('.help5').toggleClass('hidden');
+  $('.help6').toggleClass('hidden');
+  $('.help7').toggleClass('hidden');
+  $('.help8').toggleClass('hidden');
+  $('.boxbox').hover(function() {
+    $("img").toggleClass('hidden');
+    $('.bob').toggleClass('hidden');
   });
-next();
+carousel();
 });
-function next() {
-  $('.bob').click(function() {
-    $("h1.two").show();
-    $().removeclass("h1.one")
-});
-
-}
-//
-// $(document).ready(function() {
-//     var quotes = new Array("No one's around to help", "bar", "baz", "chuck"),
-//     randno = quotes[Math.floor( Math.random() * quotes.length )];
-//     $("h1#one").text( randno );
-//     $('.bob').click(function() {
-//       location.reload(true);
-//     });
-// });
-
-// function randomImage1() {
-// 	var imgArray = ["img/Puffins-1.jpg","img/Puffins-2.jpg","img/Puffins-3.jpg","img/Puffins-4.jpg","img/Puffins-5.jpg","img/Puffins-6.jpg","img/Puffins-7.jpg","img/Puffins-8.jpg"];
-// 	var randomNumber = Math.floor(Math.random() * imgArray.length);
-// 	console.log(randomNumber);
-// 	var image = imgArray[randomNumber];
-// 	console.log(imgArray[randomNumber]);
-// 	console.log(image);
-// 	$('#puffin').attr('src', image);
-// 	$('#new').click(function() {
-// 		location.reload(true);
-// 	});
-// }
-// function randomImage2() {
-// 	var randomNumber = Math.floor(Math.random() * 8) + 1;
-// 	console.log(randomNumber);
-// 	var image = "img/Puffins-" + randomNumber + ".jpg";
-// 	console.log(randomNumber);
-// 	console.log(image);
-// 	$('#puffin').attr('src', image);
-// 	$('#new').click(function() {
-// 		location.reload(true);
-// 	});
-// }
-//
+function carousel() {}
+    var i = 1;
+    $(window).click(function() {
+      // console.log(i);
+      if (i == 1) {
+        $('.help').addClass('hidden');
+        $('.help2').removeClass('hidden');
+        i = i + 1;
+        // console.log('first click');
+      } else if (i == 2 ) {
+        $('.help2').addClass('hidden');
+        $('.help3').removeClass('hidden');
+        i = i + 1;
+        // console.log('second click');
+      } else if (i == 3 ) {
+        $('.help3').addClass('hidden');
+        $('.help4').removeClass('hidden');
+        i = i + 1;
+      } else if (i == 4 ) {
+        $('.help4').addClass('hidden');
+        $('.help5').removeClass('hidden');
+        i = i + 1;
+      } else if (i == 5 ) {
+        $('.help5').addClass('hidden');
+        $('.help6').removeClass('hidden');
+        i = i + 1;
+      } else if (i == 6 ) {
+        $('.help6').addClass('hidden');
+        $('.help7').removeClass('hidden');
+        i = i + 1;
+      } else if (i == 7 ) {
+        $('.help7').addClass('hidden');
+        $('.help8').removeClass('hidden');
+        i = i + 1;
+      } else {
+        $('.help8').addClass('hidden');
+        $('.help').removeClass('hidden');
+        i = 1;
+      }
+    });
