@@ -9,7 +9,7 @@ $(document).ready(function() {
   // $('.boxbox').hover(function() {
   //   $("img").toggleClass('hidden');
   //   $('.bob').toggleClass('hidden');
-  });
+  // });
 carousel();
 });
 function carousel() {}
