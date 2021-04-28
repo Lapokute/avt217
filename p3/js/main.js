@@ -6,9 +6,9 @@ $(document).ready(function() {
   $('.help6').toggleClass('hidden');
   $('.help7').toggleClass('hidden');
   $('.help8').toggleClass('hidden');
-  $('.boxbox').hover(function() {
-    $("img").toggleClass('hidden');
-    $('.bob').toggleClass('hidden');
+  // $('.boxbox').hover(function() {
+  //   $("img").toggleClass('hidden');
+  //   $('.bob').toggleClass('hidden');
   });
 carousel();
 });
